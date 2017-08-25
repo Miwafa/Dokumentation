@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: none;
-	background: #1467A6;
+	background-image: url(../images/hintergrund.jpg);
 	font-family: 'Lato', 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 }
