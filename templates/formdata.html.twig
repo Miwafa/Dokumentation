@@ -4,11 +4,14 @@
 <div class="post">
   <div class="content-inner comments-allowed">
     <div class="post-header">
-      <h2 class="post-title">{{ page.header.title }}</h2>
+      <h2 class="post-title">{{ form.message }}</h2>
     </div>
     <div class="post-content">
-      {{ page.content }}
+      {{ content }}
     </div>
+    {% if config.plugins.form.enabled %}
+    {% include "forms/data.html.twig" %}
+    {% endif  %}
     <div class="clear"></div>
   </div>
 </div>
