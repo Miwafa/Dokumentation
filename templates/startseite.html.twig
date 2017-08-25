@@ -5,6 +5,11 @@
     <title>Workbook</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
+    {% block stylesheets %}
+    {% do assets.addCss('theme://css/style.css') %}
+    {% endblock %}
+    
+    
 </head>
 
 <body>
