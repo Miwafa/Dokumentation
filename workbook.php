@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class MyTheme extends Theme
+class workbook extends Theme
 {
 
     public static function getSubscribedEvents()
